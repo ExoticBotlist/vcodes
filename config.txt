@@ -1,20 +1,19 @@
-
-        module.exports = {
+  module.exports = {
             bot: {
-                token: "", // Bot List Bot Token
-                prefix: "",
-                owners: [""],
-                mongourl: "",
+                token: "<change in repl its not public>",
+                prefix: "vl!",
+                owners: ["744825560034705508", "738988218002964581"],
+                mongourl: "<change in repl its not public>",
                 servers: {
-                    token: "", // Server List Bot Token
+                    token: "<change in repl its not public>", // Server List Bot Token
                     prefix: ""
                 }
             },
         
             website: {
-                callback: "",
-                secret: "",
-                clientID: "", // Bot client id.
+                callback: "https://vibeslist.cf/callback",
+                secret: "<change in repl not public>",
+                clientID: "836727600067117096", // Bot client id.
                 tags: [ "Moderation", "Fun", "Minecraft","Economy","Guard","NSFW","Anime","Invite","Music","Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish" ],
                 languages: [
                     { flag: 'gb', code: 'en', name: 'English' },
@@ -124,13 +123,13 @@
             },
         
             server: {
-                id: "",
-                invite: "https://discord.gg/z7dBzygse4",
+                id: "873006828999540736",
+                invite: "https://discord.gg/CjNt7hbr",
                 roles: {
-                    administrator: "",
-                    moderator: "",
+                    administrator: "873007567016718346",
+                    moderator: "873007569269035009",
                     profile: {
-                        sitecreator : "",
+                        sitecreator : "873007562629459969",
                         booster: "",
                         sponsor: "",
                         supporter: "",
@@ -147,10 +146,10 @@
                         twentyInvite: ""
                     },
                     botlist: {
-                        developer: "",
-                        certified_developer: "",
-                        bot: "",
-                        certified_bot: "",
+                        developer: "873007576160280697",
+                        certified_developer: "873007575115890748",
+                        bot: "873007577229819914",
+                        certified_bot: "873007575837335652",
                     }
                 },
                 channels: {
@@ -158,8 +157,8 @@
                     login: "",
                     webstatus: "",
                     uptimelog: "",
-                    botlog: "",
-                    votes: ""
+                    botlog: "873007611748974643",
+                    votes: "873007616517881946"
                 }
             }
         
