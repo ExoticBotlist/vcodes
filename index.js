@@ -148,10 +148,10 @@ require("./src/database/connect.js")(client);
 
 client.login(config.bot.token);
 client.on('ready',async () => {
-    console.log("[vcodes.xyz]: Bot successfully connected as "+client.user.tag+".");
+    console.log("[vibeslist.cf]: Bot successfully connected as "+client.user.tag+".");
     let botsSchema = require("./src/database/models/botlist/bots.js");
     const bots = await botsSchema.find();
-    client.user.setPresence({ activity: { type: 'WATCHING', name: 'vcodes.xyz | '+bots.length+' bots' }, status: "dnd" });
+    client.user.setPresence({ activity: { type: 'WATCHING', name: 'vibeslist.cf | '+bots.length+' bots' }, status: "dnd" });
 });
 /*=======================================================================================*/
 
